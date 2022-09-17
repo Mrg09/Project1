@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class</title>
+    <script>
+        class add{
+            constructor(a,b){
+                this.a=a
+                this.b=b
+            }
+            Add(){
+                var c=this.a+this.b
+                alert('answer='+c)
+            }
+        }
+        var num1=prompt("Enter Value of A");
+        var num2=prompt("Enter Value of B");
+        let Addition = new add(parseInt(num1),parseInt(num2));
+        Addition.Add();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
